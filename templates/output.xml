@@ -1,0 +1,3 @@
+<templateSet group="output">
+  <template name="sou" value="System.out.print($END$);" description="Prints System.out.print" toReformat="true" toShortenFQNames="true" />
+</templateSet>
