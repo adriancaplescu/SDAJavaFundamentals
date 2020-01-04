@@ -1,3 +1,7 @@
 <templateSet group="output">
-  <template name="sou" value="System.out.print($END$);" description="Prints System.out.print" toReformat="true" toShortenFQNames="true" />
+  <template name="soup" value="System.out.print($END$);" description="Prints System.out.print" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
